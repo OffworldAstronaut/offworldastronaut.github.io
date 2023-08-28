@@ -1,0 +1,17 @@
+.titulo { 
+    text-align: center;
+}
+
+#apresentacao { 
+    text-align: center;
+    line-height: 2;
+    font-style: italic;
+    font-size: smaller;
+}
+
+.texto {
+    text-align: justify;
+    text-align: center;
+    margin-left: 450px;
+    margin-right: 450px;
+ }

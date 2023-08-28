@@ -5,3 +5,11 @@
 #apresentacao { 
     line-height: 2;
 }
+
+.sumario { 
+    text-align: center;
+}
+
+#lista_sumario { 
+    display: inline-block;
+}
