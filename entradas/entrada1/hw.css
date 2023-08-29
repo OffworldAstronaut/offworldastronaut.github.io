@@ -9,9 +9,9 @@
     font-size: smaller;
 }
 
-.texto {
+.texto1, .texto2 {
     text-align: justify;
     text-align: center;
     margin-left: 450px;
     margin-right: 450px;
- }
+}
