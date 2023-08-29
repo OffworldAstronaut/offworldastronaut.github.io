@@ -6,11 +6,23 @@
     line-height: 2;
 }
 
-.sumario { 
+.principal { 
     text-align: center;
 }
 
-#lista_sumario { 
+.sobremim { 
     text-align: center;
+    margin-left: 450px;
+    margin-right: 450px;
+}
+
+
+#lista_sumario, #tabela_sumario, #lista_contato { 
+    text-align: left;
+    align-items: center;
     display: inline-block;
+}
+
+#lista_contato { 
+    border-spacing: 10px;
 }
