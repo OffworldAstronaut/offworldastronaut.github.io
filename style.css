@@ -25,4 +25,8 @@
 
 #lista_contato { 
     border-spacing: 10px;
+    display: flex;
+    justify-content: center;
+    justify-content: space-evenly;
+    padding: 40px;
 }
