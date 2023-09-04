@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Funções</title>
+    <link rel="stylesheet" href="func.css">
+</head>
+<body>
+    <div class="titulo">
+        <h1>Funções</h1>
+        <p id="apresentacao">E se... relacionarmos dois conjuntos?</p>
+        <h6>By OffworldAstronaut</h6>
+        <br>
+    </div>
+    <div class="texto1">
+        <h2>
+            O que é uma função?
+        </h2>
+        <p>
+            Podemos definir uma função como sendo uma <b>relação</b> entre dois conjuntos <i>A</i> e <i>B</i>, 
+            onde cada elemento de <i>A</i> está relacionado com um e somente um elemento de <i>B</i>. 
+            Por meio dessa definição, podemos extrair dois elementos importantes: o <i>domínio</i> da função (<i>A</i>)
+            e o <i>contradomínio</i> (<i>B</i>). 
+        </p>
+        <p>
+            Por essa definição, é comum imaginarmos uma função como sendo uma "caixa" que recebe uma entrada e retorna uma 
+            saída. Para transformar as "entradas" em "saídas", a máquina utiliza alguma "instrução" predefinida, que chamamos de
+            <b>"lei de formação"</b> ou <b>"lei de correspondência"</b>: essa lei estabelece a relação entre cada elemento dos 
+            dois conjuntos. 
+        </p>
+        <p>
+            De uma maneira mais formal, podemos dizer que uma função entre dois conjuntos é um subconjunto do produto cartesiano
+            entre eles, com esse subconjunto satisfazendo alguma restrição ou propriedade. 
+        </p>
+        <h2>
+            Domínio, contradomínio e imagem
+        </h2>
+        <p>
+            O <b>domínio de uma função</b> é o seu "conjunto origem". Todos os elementos desse conjunto devem estar relacionados com apenas um elemento
+            do contradomínio para que a relação entre esses esses dois conjuntos seja chamada de "função". <br>
+            Na notação matemática, chamamos o domínio de uma certa função <i>f</i> de <b>Dom(<i>f</i>)</b>. 
+        </p>
+        <p>
+            O <b>contradomínio</b> é o conjunto "dependente do domínio". Não necessariamente todos os elementos do contradomínio estão relacionados com pelo
+            menos um elemento do domínio, o que nos leva à definição do conjunto imagem. Quando utilizamos a notação, podemos chamar o contradomínio de <b>CD(<i>f</i>)</b>.
+        </p>
+        <p>
+            O <b>conjunto imagem</b> é o conjunto de todos os elementos do contradomínio que possuem uma relação com pelo menos um elemento do domínio. <br> 
+            Ele pode ser "menor" (estar contido) ou igual ao contradomínio, mas nunca "maior" (conter o <i>CD</i>). 
+        </p>
+        <p>
+            Na notação matemática, chamamos o conjunto imagem de <b>Im(<i>f</i>)</b>. 
+        </p>
+        <h2>
+            Gráfico de uma função
+        </h2>
+        <p>
+            Podemos representar uma função graficamente por meio do <b>plano cartesiano</b>: organizamos os conjuntos nas duas retas perpendiculares entre si, 
+            com o eixo horizontal (<i>eixo das abcissas</i>) sendo o conjunto domínio da função e o eixo vertical (<i>eixo das ordenadas</i>) sendo o conjunto contradomínio. 
+        </p>
+        <p>
+            Por conta da configuração do plano, cada ponto representa um par ordenado entre dois conjuntos quaiquer, embora geralmente utilizamos funções com domínio nos Números Reais 
+            e contradomínio também nos Reais. 
+        </p>
+        <h2>
+            Tipos de funções
+        </h2>
+        <p>
+            No estudo das funções, podemos dividi-las em algumas categorias para facilitar seu estudo mais profundo.
+        </p>
+        <h3>
+            Injetoras
+        </h3>
+        <p>
+            As funções <b>injetoras</b>, também chamadas de "funções um-para-um" (<i>one-to-one</i>) ou ainda funções <b>injetivas</b> são funções em que 
+            cada elemento do conjunto imagem está relacionado com apenas um elemento do domínio. 
+        </p>
+        <p>
+            Formalmente, elas são definidas como funções que satisfazem a relação: 
+        </p>
+        <math display="block" class="tml-display" style="display:block math;font-size:25px">
+            <mrow>
+              <mtext>Se </mtext>
+              <mi>f</mi>
+              <mo form="prefix" stretchy="false">(</mo>
+              <msub>
+                <mi>x</mi>
+                <mn>1</mn>
+              </msub>
+              <mo form="postfix" stretchy="false">)</mo>
+              <mo>=</mo>
+              <mi>f</mi>
+              <mo form="prefix" stretchy="false">(</mo>
+              <msub>
+                <mi>x</mi>
+                <mn>2</mn>
+              </msub>
+              <mo form="postfix" stretchy="false">)</mo>
+              <mo separator="true">,</mo>
+              <mrow>
+                <mtext>e</mtext>
+                <mtext>n</mtext>
+                <mtext>t</mtext>
+                <mover>
+                  <mtext>a</mtext>
+                  <mo stretchy="false" style="math-style:normal;math-depth:0;">˜</mo>
+                </mover>
+                <mtext>o</mtext>
+                <mtext>&nbsp;
+                </mtext>
+              </mrow>
+              <msub>
+                <mi>x</mi>
+                <mn>1</mn>
+              </msub>
+              <mo>=</mo>
+              <msub>
+                <mi>x</mi>
+                <mn>2</mn>
+              </msub>
+            </mrow>
+          </math>
+          <p>
+            Ou seja, se "dois" elementos do conjunto imagem são iguais, então "eles" partem do mesmo elemento do domínio, 
+            ou seja, era o mesmo elemento o tempo inteiro! 
+          </p>
+          <p>
+            É mais fácil entender o caso inverso: 
+          </p>
+          <math display="block" class="tml-display" style="display:block math;font-size:25px">
+            <mrow>
+              <mtext>Se </mtext>
+              <mi>f</mi>
+              <mo form="prefix" stretchy="false">(</mo>
+              <msub>
+                <mi>x</mi>
+                <mn>1</mn>
+              </msub>
+              <mo form="postfix" stretchy="false">)</mo>
+              <mo>≠</mo>
+              <mo form="prefix" stretchy="false">(</mo>
+              <msub>
+                <mi>x</mi>
+                <mn>2</mn>
+              </msub>
+              <mo form="postfix" stretchy="false">)</mo>
+              <mo separator="true">,</mo>
+              <mrow>
+                <mtext>e</mtext>
+                <mtext>n</mtext>
+                <mtext>t</mtext>
+                <mover>
+                  <mtext>a</mtext>
+                  <mo stretchy="false" style="math-style:normal;math-depth:0;">˜</mo>
+                </mover>
+                <mtext>o</mtext>
+                <mtext>
+                    &nbsp;
+                </mtext>
+              </mrow>
+              <msub>
+                <mi>x</mi>
+                <mn>1</mn>
+              </msub>
+              <mo>≠</mo>
+              <msub>
+                <mi>x</mi>
+                <mn>2</mn>
+              </msub>
+            </mrow>
+          </math>
+          <p>
+            Ou seja, se os elementos do conjunto imagem são diferentes entre si, os elementos do domínio que os originaram
+            também são diferentes entre si.
+          </p>
+          <div id="img1" style="text-align: center;">
+            <img src="imgs/funcao_injetiva.svg" alt="Diagrama função injetiva" title="Função injetiva" width="270px">
+            <figcaption><i>Representação de uma função injetiva. Domínio público.</i></figcaption>
+          </div>
+          <h3>
+            Funções sobrejetoras
+          </h3>
+          <p>
+            As funções <b>sobrejetoras</b> ou <b>sobrejetivas</b> são funções em que todo elemento do contradomínio é um elemento do conjunto imagem, 
+            ou seja, os conjuntos "contradomínio" e "imagem" são iguais. 
+          </p>
+          <div id="img2" style="text-align: center;">
+            <img src="imgs/funcao_sobrejetiva.svg" alt="Diagrama função sobrejetiva" title="Função sobrejetiva" width="270px">
+            <figcaption><i>Representação de uma função sobrejetiva. Domínio público.</i></figcaption>
+        </div>
+        <h3>
+            Funções bijetoras
+        </h3>
+        <p>
+            As funções <b>bijetoras</b> ou <b>bijetivas</b> são a "fusão" das duas anteriores, funções em que cada elemento do conjunto imagem 
+            está relacionado com apenas um elemento do domínio, com os conjuntos imagem e contradomínio sendo iguais. 
+        </p>
+        <div id="img2" style="text-align: center;">
+            <img src="imgs/funcao_bijetiva.svg" alt="Diagrama função bijetiva" title="Função bijetiva" width="270px">
+            <figcaption><i>Representação de uma função bijetiva. Domínio público.</i></figcaption>
+        </div>
+        <h2>
+            Ligações externas
+        </h2>
+        <ul>
+            <li><a href="http://en.wikipedia.org/wiki/Function_(mathematics)">Função (matemática), Wikipédia (Inglês)</a></li>
+            <li><a href="http://https://en.wikipedia.org/wiki/Injective_function">Função injetiva, Wikipédia (Inglês)</a></li>
+            <li><a href="http://https://en.wikipedia.org/wiki/Surjective_function">Função sobrejetiva, Wikipédia (Inglês)</a></li>
+            <li><a href="https://en.wikipedia.org/wiki/Bijection">Função bijetiva, Wikipédia (Inglês)</a></li>
+        </ul>
+    </div>
+</body>
+</html>
