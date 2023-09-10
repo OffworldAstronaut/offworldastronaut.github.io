@@ -1,5 +1,6 @@
 .cabecalho {
     text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 #apresentacao { 
@@ -8,12 +9,14 @@
 
 .principal { 
     text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 .sobremim { 
     text-align: center;
     margin-left: 450px;
     margin-right: 450px;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 

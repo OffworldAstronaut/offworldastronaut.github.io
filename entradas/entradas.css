@@ -1,5 +1,6 @@
 .titulo { 
     text-align: center;
+    font-family:Arial, Helvetica, sans-serif;
 }
 
 .texto1 {
@@ -7,6 +8,7 @@
     text-align: left;
     margin-left: 450px;
     margin-right: 450px;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 #apresentacao { 
