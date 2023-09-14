@@ -1,3 +1,10 @@
+body { 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
 .titulo { 
     text-align: center;
     font-family: Arial, Helvetica, sans-serif;
@@ -14,9 +21,8 @@
 .texto1, .texto2 {
     text-align: justify;
     text-align: center;
-    margin-left: 450px;
-    margin-right: 450px;
     font-family: Arial, Helvetica, sans-serif;
+    max-width: 60%;
 }
 
 #final { 
