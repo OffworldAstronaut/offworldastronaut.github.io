@@ -26,10 +26,15 @@ body {
 }
 
 
-#lista_sumario, #tabela_sumario, #lista_contato { 
+#lista_contato { 
     text-align: left;
     align-items: center;
     display: inline-block;
+}
+
+#cel_sumario { 
+    padding: 15px;
+    text-align: center;
 }
 
 #lista_contato { 
