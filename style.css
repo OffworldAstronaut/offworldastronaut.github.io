@@ -1,46 +1,96 @@
+@font-face {
+    font-family: Helico;
+    src: url("Helico\ Centrica\ Roman.ttf");
+}
+
 body { 
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
+    background-color: rgb(33, 33, 33);
+}
+
+#titulo_pag { 
+    font-size: 45px;
+    font-family: Helico;
+    color: #f5c63b;
     text-align: center;
 }
 
-.cabecalho {
+#subtitulo_pag { 
+    font-size: 20px;
+    font-family: Helico;
+    color: #f5c63b;
     text-align: center;
-    font-family: Arial, Helvetica, sans-serif;
+
+    margin-top: 0; 
 }
 
-#apresentacao { 
-    line-height: 2;
-}
-
-.principal { 
+.container {
+    display: block;
+    flex-direction: row;
     text-align: center;
-    font-family: Arial, Helvetica, sans-serif;
-}
 
-.sobremim { 
-    text-align: center;
-    font-family: Arial, Helvetica, sans-serif;
-}
-
-
-#lista_contato { 
-    text-align: left;
-    align-items: center;
-    display: inline-block;
-}
-
-#cel_sumario { 
-    padding: 15px;
-    text-align: center;
-}
-
-#lista_contato { 
-    border-spacing: 10px;
-    display: flex;
-    justify-content: center;
-    justify-content: space-evenly;
     padding: 40px;
+}
+
+.titulo { 
+    font-family: Helico;
+}
+
+.imagem { 
+    padding-bottom: 30px;
+}
+
+.menu { 
+    font-family: Helico;
+    font-size: large;
+
+    display: flex;
+    justify-content: space-evenly;
+    
+    align-items: center;
+
+    text-align: center;
+}
+
+.menu_sobre { 
+    max-width: 20%;
+}
+
+.menu_sobre h2 { 
+    border: 2px;
+    border-style: double;
+    border-color: white;
+
+    font-size: 34px; 
+    padding: 10px;
+}
+
+.menu_sobre p { 
+    font-size: 24px;
+}
+
+.menu_sobre a, p { 
+    color: white;
+    text-decoration: none;
+}
+
+.menu_estantes { 
+    max-width: 20%;
+}
+
+.menu_estantes h2 { 
+    border: 2px;
+    border-style: double;
+    border-color: white;
+
+    font-size: 34px; 
+    padding: 10px;
+}
+
+.menu_estantes p { 
+    font-size: 24px;
+}
+
+.menu_estantes a, p { 
+    color: white;
+    text-decoration: none;
 }
